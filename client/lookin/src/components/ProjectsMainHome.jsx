@@ -201,7 +201,7 @@ const ProjectsMainHome = ({UploadOpen, setUploadOpen, Residences, setResidences}
 
             {RoomUploadOpen == true &&
             
-            <RoomUploadPopUp designId={designId} RoomUploadOpen={RoomUploadOpen} setRoomUploadOpen={setRoomUploadOpen}/>
+            <RoomUploadPopUp  RoomUploadOpen={RoomUploadOpen} setRoomUploadOpen={setRoomUploadOpen}/>
             
             }
 
@@ -224,7 +224,6 @@ const ProjectsMainHome = ({UploadOpen, setUploadOpen, Residences, setResidences}
                     }} className='rounded-md cursor-pointer bg-zinc-200 px-4 py-1.5 font-semibold tracking-tight'>Cancel</button>
                     <button onClick={submitResidenceByButton} className='rounded-md bg-[#111932] text-[#fafafa] px-5 py-1.5 font-semibold cursor-pointer tracking-tight'>Upload Design</button>
                 </div>
-
             </div>
 
         </div>
