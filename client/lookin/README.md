@@ -64,12 +64,12 @@ MongoDB
 Project Structure
 
 LookIn
-├── frontend/
+├── client/
 │   ├── components/
 │   ├── routes/
 │   └── ...
 │
-├── backend/
+├── server/
 │   ├── models/
 │   ├── public/
 │   ├── app.js
